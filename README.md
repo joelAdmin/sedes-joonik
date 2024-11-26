@@ -29,7 +29,10 @@ Clona el repositorio del proyecto en tu máquina local:
 
 ```bash
 git clone https://github.com/joelAdmin/sedes-joonik.git
-cd dir_name/backend
+
+#Entrar en el directorio 
+bash
+cd /backend
 
 #Configuración del entorno .env
     API_KEY=MVcc7aWOQ123456789MVcc7aWOQ
