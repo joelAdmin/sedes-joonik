@@ -25,10 +25,15 @@ Sigue estos pasos para configurar y ejecutar la API:
 
 ### 1. Clonar el repositorio
 
-Clona el repositorio del proyecto en tu máquina local:
+Una vez clonado repositorio en el directorio backend copiar y renombrar fuera de la carpeta el file example.docker-compose.yml  a docker-compose.yml para poder ejecutar el docker-composer:
 
 ```bash
 git clone https://github.com/joelAdmin/sedes-joonik.git
+
+#Crear los directorios
+bash
+mkdir frontend
+mkdir backend
 
 #Entrar en el directorio 
 bash
