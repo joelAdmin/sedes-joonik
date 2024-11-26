@@ -29,7 +29,31 @@ Clona el repositorio del proyecto en tu máquina local:
 
 ```bash
 git clone https://github.com/joelAdmin/sedes-joonik.git
-cd sedes-joonik/backend
+cd dir_name/backend
+
+#Configuración del entorno .env
+    API_KEY=MVcc7aWOQ123456789MVcc7aWOQ
+    DB_CONNECTION=mysql
+    DB_HOST=db
+    DB_PORT=3306
+    DB_DATABASE=sedes
+    DB_USERNAME=root
+    DB_PASSWORD=root
+
+#Instala las dependencias de Laravel
+    bash
+    composer install
+
+#Construir y ejecutar el proyecto
+
+#Construye los contenedores Docker:
+bash
+docker-compose up --build
+
+#Ejecuta los contenedores en segundo plano:
+
+bash
+docker-compose up -d
 
 # Documentación de la API
 
